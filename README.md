@@ -1,7 +1,7 @@
 # SecureFileTransferSystem
 - `BUPT`大二下
 - 信息安全课程设计
-- 以小组为单位
+- 以小组为单位：[xqh](https://github.com/xiaoxiaorenwu) | [bzl](https://github.com/Sndav) | [wbh](https://github.com/biiNG) | [lxr](https://github.com/Liu-xr)
 - 安全文件传输系统
   - `server`使用`go`编写
   - `client`使用`python`编写
