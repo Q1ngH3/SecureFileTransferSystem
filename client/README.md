@@ -11,9 +11,9 @@
 + 定时进行与服务器的连通性测试，测试不通过会不让登录或注册
 ## *Settings*
 + 全部在settings.json中配置即可
-  + "RemoteServer": 服务器的地址
-  + "MyIP": 客户端ip
-  + "ListeningPort": 监听的端口
+  + `RemoteServer`: 服务器的地址
+  + `MyIP`: 客户端ip
+  + `ListeningPort`: 监听的端口
 ## **大体的设计思路（略有些混乱，但还算凑合）**
 + gui 文件夹中存放所有界面相关的模块
     + Frames 是存放各种组件的框架，每个界面对应一个frame
