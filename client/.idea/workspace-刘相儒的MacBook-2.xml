@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfdcb54b-271d-4b8f-ac44-28e3f1894019" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client_api/TransHandlers/RequestHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_api/TransHandlers/SendHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_api/TransHandlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_api/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_api/CONST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/origin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lxr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/lxr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/CONST.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/CONST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/Encrypt_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/Encrypt_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/RSAkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/RSAkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/compress.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/compress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/crypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/crypt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_api/trans_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_api/trans_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Frames/Contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Frames/Contacts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Frames/FileTrans.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Frames/FileTrans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Frames/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Frames/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Frames/Offline.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Frames/Offline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Frames/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Frames/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Languages/zh-CN.json" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Languages/zh-CN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MainWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SubWindows/Recv.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SubWindows/Recv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SubWindows/Register.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SubWindows/Register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SubWindows/Send.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SubWindows/Send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SubWindows/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SubWindows/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/Auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_api/Auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/Contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_api/Contacts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/Offline.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_api/Offline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/var.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_api/传输+加密.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server_api/传输+加密.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dyaesdWuWDhigYQlwhiuhMAW56" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gui" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client_api" />
+      <recent name="$PROJECT_DIR$/api" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test2">
+    <configuration name="Compress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client_api/Compress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Encrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client_api/Encrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_timestamp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_timestamp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.main_gui" />
+        <item itemvalue="Python.Encrypt" />
+        <item itemvalue="Python.Compress" />
+        <item itemvalue="Python.test_timestamp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfdcb54b-271d-4b8f-ac44-28e3f1894019" name="Default Changelist" comment="" />
+      <created>1593399885210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593399885210</updated>
+      <workItem from="1593399888963" duration="12533000" />
+      <workItem from="1593434833009" duration="3814000" />
+      <workItem from="1593441656307" duration="3020000" />
+      <workItem from="1593474688829" duration="5073000" />
+      <workItem from="1593499064084" duration="4203000" />
+      <workItem from="1593503450962" duration="4523000" />
+      <workItem from="1593516893606" duration="7469000" />
+      <workItem from="1593532857950" duration="631000" />
+      <workItem from="1593583477435" duration="9557000" />
+      <workItem from="1593597408665" duration="9100000" />
+      <workItem from="1593652255578" duration="1167000" />
+      <workItem from="1593653456302" duration="44000" />
+      <workItem from="1593653509619" duration="27882000" />
+      <workItem from="1593737706337" duration="1000" />
+      <workItem from="1593737762490" duration="4038000" />
+      <workItem from="1593750137413" duration="369000" />
+      <workItem from="1593750582282" duration="1897000" />
+      <workItem from="1593753866470" duration="851000" />
+      <workItem from="1593754723214" duration="701000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593664803024">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="520" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.991@0.23.1920.991" timestamp="1593664803024" />
+    <state x="636" y="118" key="CommitChangelistDialog2" timestamp="1593583741457">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="636" y="118" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1593583741457" />
+    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1593606849912">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state width="450" height="466" key="DebuggerActiveHint/0.23.1920.991@0.23.1920.991" timestamp="1593606849912" />
+    <state width="1218" height="230" key="GridCell.Tab.0.bottom" timestamp="1593756944848">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1593756944848" />
+    <state width="1607" height="298" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1593755423920" />
+    <state width="1218" height="230" key="GridCell.Tab.0.center" timestamp="1593756944847">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1593756944847" />
+    <state width="1607" height="298" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1593755423920" />
+    <state width="1218" height="230" key="GridCell.Tab.0.left" timestamp="1593756944846">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1593756944846" />
+    <state width="1607" height="298" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1593755423919" />
+    <state width="1218" height="230" key="GridCell.Tab.0.right" timestamp="1593756944848">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1593756944848" />
+    <state width="1607" height="298" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1593755423920" />
+    <state width="1218" height="230" key="GridCell.Tab.1.bottom" timestamp="1593756944703">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1593756944703" />
+    <state width="1607" height="298" key="GridCell.Tab.1.bottom/0.23.1920.991@0.23.1920.991" timestamp="1593755423822" />
+    <state width="1218" height="230" key="GridCell.Tab.1.center" timestamp="1593756944702">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1593756944702" />
+    <state width="1607" height="298" key="GridCell.Tab.1.center/0.23.1920.991@0.23.1920.991" timestamp="1593755423821" />
+    <state width="1218" height="230" key="GridCell.Tab.1.left" timestamp="1593756944702">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1593756944702" />
+    <state width="1607" height="298" key="GridCell.Tab.1.left/0.23.1920.991@0.23.1920.991" timestamp="1593755423821" />
+    <state width="1218" height="230" key="GridCell.Tab.1.right" timestamp="1593756944703">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="230" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1593756944703" />
+    <state width="1607" height="298" key="GridCell.Tab.1.right/0.23.1920.991@0.23.1920.991" timestamp="1593755423821" />
+    <state x="691" y="172" key="SettingsEditor" timestamp="1593668720161">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="691" y="172" key="SettingsEditor/0.23.1920.991@0.23.1920.991" timestamp="1593668720161" />
+    <state x="581" y="154" width="639" height="729" key="find.popup" timestamp="1593668684134">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="581" y="154" width="639" height="729" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1593668684134" />
+    <state x="865" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1593598941172">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="865" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.991@0.23.1920.991" timestamp="1593598941172" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/client_api/TransHandlers/SendHandler.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/client_api/TransHandlers/RequestHandler.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/client_api/TransHandlers/RequestHandler.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/client_api/TransHandlers/RequestHandler.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code$test.coverage" NAME="test Coverage Results" MODIFIED="1593526819279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$Encrypt.coverage" NAME="Encrypt Coverage Results" MODIFIED="1593654217954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client_api" />
+    <SUITE FILE_PATH="coverage/code$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1593501032760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1593442457916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$test_timestamp.coverage" NAME="test_timestamp Coverage Results" MODIFIED="1593600401844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1593756944652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$Login.coverage" NAME="Login Coverage Results" MODIFIED="1593403976509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/Windows" />
+    <SUITE FILE_PATH="coverage/code$Compress.coverage" NAME="Compress Coverage Results" MODIFIED="1593652815183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client_api" />
+    <SUITE FILE_PATH="coverage/code$test_progressbar.coverage" NAME="test_progressbar Coverage Results" MODIFIED="1593474710729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$main_gui.coverage" NAME="main_gui Coverage Results" MODIFIED="1593755762009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1593444076055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$test_download.coverage" NAME="test_download Coverage Results" MODIFIED="1593475216009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

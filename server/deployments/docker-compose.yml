@@ -1,0 +1,12 @@
+version: "3"
+services:
+  server:
+    build: ../
+    ports:
+        - "9999:80"
+    links:
+      - "mysql:mysql"
+  mysql:
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+    image: "mysql:5.5.60"
